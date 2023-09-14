@@ -23,6 +23,7 @@ section{
     display: flex;
     justify-content: center;
     margin: 10vh auto;
+    flex-wrap: wrap;
 }
 
 h1{
@@ -34,8 +35,6 @@ h1{
     padding: 30px;
     border-radius: 20px;
     margin: 25px;
-    /* width: 300px;
-    height: 300px; */
 }
 
 #team1{
@@ -55,11 +54,11 @@ h1{
     color: black;
     font-size: 2em;
     font-weight: bold;
-
 }
 
 .balls{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .scoreboard{
